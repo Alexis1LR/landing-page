@@ -1,0 +1,42 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.section-1 {
+    background-color: #D4CBE5;
+    padding-top: 20px;
+}
+
+.section-2 {
+    background: #CFC7D2;
+}
+
+.section-3 {
+    background-color: #7C7F65;
+}
+
+.section-4 {
+    background-color: #BEA8AA;
+}
+
+.nav-links {
+    font-size: large;
+    display: flex;
+    gap: 40px;
+}
+
+.company {
+    font-size: xx-large;
+    margin-right: auto;
+    margin-left: 40px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
