@@ -1,8 +1,9 @@
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*affects all elements on page*/
+    font-family: "Roboto", sans-serif;
+    /*this removes that weird white space that pops up between major elements (divs)*/
+    margin: 0;
 }
-
-
 
 .section-1 {
     background-color: #D4CBE5;
@@ -21,17 +22,24 @@
     background-color: #BEA8AA;
 }
 
-.nav-links {
+.nav-container {
     font-size: large;
     display: flex;
     gap: 40px;
+    margin-right: 20px;
+
 }
 
 .company {
     font-size: xx-large;
+    /*makes the element go to the left side of the page*/
     margin-right: auto;
     margin-left: 40px;
 
+}
+
+.opening-info {
+    margin-top: 20px;
 }
 
 .info {
@@ -39,4 +47,11 @@
     justify-content: space-around;
     list-style-type: none;
 
+}
+
+.sign-up-b {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
 }
