@@ -1,28 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
 * {
     /*affects all elements on page*/
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", Arial;
     /*this removes that weird white space that pops up between major elements (divs)*/
     margin: 0;
 }
 
+a {
+    /*turn all links white*/
+    color: white;
+}
+
+/*consists of opening section with info text and image*/
 .section-1 {
-    background-color: #D4CBE5;
+    background-color: #1f2937;
+    color: white;
     padding-top: 20px;
 }
 
-.section-2 {
-    background: #CFC7D2;
-}
-
-.section-3 {
-    background-color: #7C7F65;
-}
-
-.section-4 {
-    background-color: #BEA8AA;
-}
 
 .nav-container {
+    /*targets the navigation bar at the top of the page*/
     font-size: large;
     display: flex;
     gap: 40px;
@@ -46,12 +46,89 @@
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    font-size: large;
 
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .sign-up-b {
     background-color: #3882f6;
+    margin-right: auto;
     color: white;
     font-weight: bold;
     border-radius: 8px;
+}
+
+/*RANDOM INFO SECTION*/
+.section-2 {
+    background: #CFC7D2;
+    padding: 50px;
+}
+
+.random-info-head {
+    text-align: center;
+    padding: 20px
+}
+
+.random-info-boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.random-info-boxes .section {
+    padding: 20px;
+    border: 5px solid cornsilk;
+    border-radius: 15px;
+}
+
+
+.random-info-boxes-subtexts {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* QUOTE SECTION */
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 30px;
+    margin: 100px 400px;
+}
+
+.author {
+    padding-right: 400px;
+}
+
+/* CALL TO ACTION SECTION */
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+
+.main-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 3em;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.go-b {
+    border: 2px solid #FFF;
 }
